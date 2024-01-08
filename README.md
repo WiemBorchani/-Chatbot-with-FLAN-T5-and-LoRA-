@@ -112,3 +112,4 @@ outputs = model.generate(input_ids=input_ids, do_sample=True, top_p=0.9, max_len
 print(tokenizer.batch_decode(outputs.detach().cpu().numpy(), skip_special_tokens=True)[0])
 ```
 
+<img width="617" alt="image" src="https://github.com/WiemBorchani/-Chatbot-with-FLAN-T5-and-LoRA-/assets/52404192/af5dd234-d3db-4dd2-806e-5ba96e80e1df">
